@@ -1,0 +1,23 @@
+{
+  "name": "liksi-kata-nearest-color",
+  "version": "1.0.0",
+  "author": "Manon Carbonnel",
+  "scripts": {
+    "format": "prettier --write src",
+    "test": "vitest",
+    "test:coverage": "vitest --coverage",
+    "test:run": "vitest run",
+    "test:run:coverage": "vitest run --coverage",
+    "test:mutations": "npx stryker run"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@stryker-mutator/typescript-checker": "^8.7.1",
+    "@stryker-mutator/vitest-runner": "^8.7.1",
+    "@types/node": "^22.13.13",
+    "@vitest/coverage-istanbul": "^3.0.9",
+    "prettier": "3.5.3",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.9"
+  }
+}
